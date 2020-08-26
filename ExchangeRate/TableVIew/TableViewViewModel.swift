@@ -9,6 +9,7 @@
 import Foundation
 
 class TableViewViewModel: TableViewViewModelProtocol {
+    
     var currentValutes: [CurrentValute] = []
     
     private var indexPath: IndexPath?
@@ -28,6 +29,4 @@ class TableViewViewModel: TableViewViewModelProtocol {
             complition()
         }
     }
-    
-    
 }

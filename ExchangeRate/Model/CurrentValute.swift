@@ -9,6 +9,7 @@
 import Foundation
 
 struct CurrentValute: Decodable {
+    
     let CharCode: String
     let Nominal: Int
     let Name: String

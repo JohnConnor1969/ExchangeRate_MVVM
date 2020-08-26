@@ -9,6 +9,7 @@
 import Foundation
 
 protocol TableViewViewModelProtocol {
+    
     var currentValutes: [CurrentValute] { get }
     
     func numberOfrows() -> Int?

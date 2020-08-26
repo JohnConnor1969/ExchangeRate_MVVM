@@ -9,6 +9,7 @@
 import Foundation
 
 struct TodayRate: Decodable {
+    
     let Date: String
     let Valute: [String: CurrentValute]
 }

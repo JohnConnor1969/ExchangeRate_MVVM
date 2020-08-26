@@ -10,6 +10,8 @@ import UIKit
 
 class TableViewController: UITableViewController {
     
+    // MARK: - ViewModel
+    
     private var viewModel: TableViewViewModelProtocol! {
         didSet {
             viewModel.fetchRates() {
@@ -42,6 +44,8 @@ class TableViewController: UITableViewController {
 
         return cell
     }
+    
+    // MARK: - Functions
     
     @IBAction func refreshAction(_ sender: UIBarButtonItem) {
         ViewModelInit()

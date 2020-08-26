@@ -9,6 +9,7 @@
 import Foundation
 
 protocol TableViewCellViewModelProtocol: class {
+    
     var code: String? { get }
     var name: String? { get }
     var value: Double? { get }
